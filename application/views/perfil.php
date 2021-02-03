@@ -46,6 +46,103 @@
             <div></div>
             <div></div>
             
+
+            <div class="section">
+                <div class="section__title">
+                    <h2 class="subtitle">Datos personales</h2>
+                </div>                
+            </div>
+            <div class="andes-card">
+                <a href="Perfil/VistaModificarUsuario?id=<?=$this->session->userdata('id')?>">
+                    <div class="field-value field-value--button" role="button" tabindex="0">
+                        <div class="field-value__group">
+                            <div class="field-value__group__field">Nombre y Apellido</div>
+                            <div class="field-value__group__value"><span><?=$usuario->nombre?></span>
+                            </div>
+                        </div>
+                        <div class="field-value__action">
+                            <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 17">
+                                <path d="M26.086 2L13.543 14.513 1 2" stroke-width="3" fill-rule="evenodd" fill="none" stroke="#3483fa">                                
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="field-value field-value--button" role="button" tabindex="0">
+                        <div class="field-value__group">
+                            <div class="field-value__group__field">Documento</div>
+                            <div class="field-value__group__value"><span>Agregar Documento</span></div>
+                        </div>
+                        <div class="field-value__action">
+                            <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 17">
+                                <path d="M26.086 2L13.543 14.513 1 2" stroke-width="3" fill-rule="evenodd" fill="none" stroke="#3483fa">                                
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="field-value field-value--button" role="button" tabindex="0">
+                        <div class="field-value__group">
+                            <div class="field-value__group__field">Teléfono</div>
+                            <div class="field-value__group__value"><span>Teléfono</span></div>
+                        </div>
+                        <div class="field-value__action">
+                            <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 17">
+                                <path d="M26.086 2L13.543 14.513 1 2" stroke-width="3" fill-rule="evenodd" fill="none" stroke="#3483fa">                                
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="field-value field-value--button" role="button" tabindex="0">
+                        <div class="field-value__group">
+                            <div class="field-value__group__field">Teléfono alternativo</div>
+                            <div class="field-value__group__value"><span>Teléfono alternativo</span></div>
+                        </div>
+                        <div class="field-value__action">
+                            <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 17">
+                                <path d="M26.086 2L13.543 14.513 1 2" stroke-width="3" fill-rule="evenodd" fill="none" stroke="#3483fa">                                
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div class="section">
+                <div class="section__title">
+                    <h2 class="subtitle">Tarjetas</h2>
+                </div>
+            </div>
+            <div class="andes-card andes-card--addresses">
+                <a href="">
+                    <div class="field-value field-value--button" role="button" tabindex="0">
+                        <div class="field-value__group">
+                            <div class="field-value__group__field"></div>
+                            <div class="field-value__group__value"><span>No tienes ninguna tarjeta de crédito.</span>
+                            </div>
+                        </div>
+                        <div class="field-value__action">
+                            <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 17">
+                                <path d="M26.086 2L13.543 14.513 1 2" stroke-width="3" fill-rule="evenodd" fill="none" stroke="#3483fa">                                
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
             <div class="section">
                 <div class="section__title">
                     <h2 class="subtitle">Direcciones</h2>
@@ -68,6 +165,8 @@
                     </div>
                 </a>
             </div>
+
+            
         </div>
     </div>
 </div>
